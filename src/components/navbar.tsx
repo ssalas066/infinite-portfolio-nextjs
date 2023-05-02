@@ -1,5 +1,7 @@
 import {useState} from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+// import Image from 'next/image';
 
 const Navbar = () => {
     const [active, setActive] = useState(false);
@@ -36,6 +38,17 @@ const Navbar = () => {
                             />
                     </svg>
             </button>
+            <div
+                className={`${
+                    active ? '' : 'hidden'
+                } w-full lg:inline-flex lg:flex-grow lg:w-auto`}
+                >
+                    <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto'>
+                        <Link href={}>
+                            
+                        </Link>
+                    </div>
+                </div>
         </nav>
         
         </>
