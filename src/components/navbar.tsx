@@ -44,8 +44,10 @@ const Navbar = () => {
                 } w-full lg:inline-flex lg:flex-grow lg:w-auto`}
                 >
                     <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto'>
+                        <Link href='/' className='lg:inline-flex lg:w-auto w-full bg-gray-900/50 text-white no-underline hover:underline rounded-md px-3 py-2 text-sm font-medium '>
+                        Home
+                        </Link>
                         <Link href={}>
-                            
                         </Link>
                     </div>
                 </div>
