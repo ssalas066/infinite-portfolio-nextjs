@@ -15,7 +15,7 @@ const Navbar = () => {
         <nav className='flex items-center flex-wrap fixed w-full z-10 top-0 shadow-2xl bg-cyan-800'>
             <div className='inline-flex items-center p-2 mr-4'>
                 <Image className='block rounded fill-current text-white h-10 w-10 mr-2'
-                src={}
+                src={''}
                 alt=''
                 />
             </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
                         <Link href='/' className='lg:inline-flex lg:w-auto w-full bg-gray-900/50 text-white no-underline hover:underline rounded-md px-3 py-2 text-sm font-medium '>
                         Home
                         </Link>
-                        <Link href={}>
+                        <Link href={'/'}>
                         </Link>
                     </div>
                 </div>
