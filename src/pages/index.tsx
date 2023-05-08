@@ -22,10 +22,10 @@ export default function Home() {
                     {/* <div className=" row-span-1 lg:col-span-1 text-2xl lg:text-4xl font-semibold font-mono tracking-tight text-gray-600">
                         <h4 className=' text-2xl lg:text-1xl'>Fullstack Web Developer</h4>
                     </div> */}
-                    <div className=" row-span-1 lg:col-span-3 text-2xl lg:text-1xl font-semibold font-mono tracking-tight text-gray-600">
-                        <h2 className='mx-auto mb-10'>Fullstack Web Developer</h2>
-                        <h2 className=''>Hi, I am a fullstack developer reshaping user interaction</h2>
-                        <h2 className=''>My mission is to design and develop a website that cultivates your audience and captures your values, your vision.</h2>
+                    <div className=" row-span-1 lg:col-span-3 text-2xl lg:text-1xl font-semibold font-mono tracking-tight">
+                        <h2 className='mx-auto mb-10 text-yellow-400'>Fullstack Web Developer</h2>
+                        <h2 className='text-white'>Hi, I am a fullstack developer reshaping user interaction</h2>
+                        <h2 className='text-white'>My mission is to design and develop a website that cultivates your audience and captures your values, your vision.</h2>
                     </div>
                     <Image className=" row-span-1 lg:row-span-3 lg:col-span-2 lg:max-h-full max-h-fit rounded-2xl mb-5 w-full object-contain" src={profile} alt="profile" />
                 </div>
