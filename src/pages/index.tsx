@@ -27,7 +27,7 @@ export default function Home() {
                         <h2 className=''>Hi, I am a fullstack developer reshaping user interaction</h2>
                         <h2 className=''>My mission is to design and develop a website that cultivates your audience and captures your values, your vision.</h2>
                     </div>
-                    <Image className=" row-span-1 lg:row-span-3 row-start-1 lg:col-span-2 lg:max-h-full max-h-fit rounded-2xl mb-5 w-full object-contain" src={profile} alt="profile" />
+                    <Image className=" row-span-1 lg:row-span-3 lg:col-span-2 lg:max-h-full max-h-fit rounded-2xl mb-5 w-full object-contain" src={profile} alt="profile" />
                 </div>
              </div>
         </div>
