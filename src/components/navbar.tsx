@@ -47,7 +47,16 @@ const Navbar = () => {
                         <Link href='/' className='lg:inline-flex lg:w-auto w-full bg-gray-900/50 text-white no-underline hover:underline rounded-md px-3 py-2 text-sm font-medium '>
                         Home
                         </Link>
-                        <Link href={'/'}>
+                        <Link href={'/'} className=' lg:inline-flex lg:w-auto w-full text-gray-300 no-underline hover:underline hover:text-white rounded-md px-3 py-2 text-sm font-medium items-center justify-center'>
+                            Resume
+                        </Link>
+                        <Link href={'/'} className=' lg:inline-flex lg:w-auto w-full text-gray-300 no-underline hover:underline hover:text-white rounded-md px-3 py-2 text-sm font-medium items-center justify-center'>
+                            Recent
+                        </Link>
+                        <Link href={'/'} className=' lg:inline-flex lg:w-auto w-full text-gray-300 no-underline hover:underline hover:text-white rounded-md px-3 py-2 text-sm font-medium items-center justify-center'>
+                            Contact
+                        </Link>
+                        <Link href={'/'} className=' lg:inline-flex lg:w-auto w-full text-gray-300 no-underline hover:underline hover:text-white rounded-md px-3 py-2 text-sm font-medium items-center justify-center'>
                         </Link>
                     </div>
                 </div>
