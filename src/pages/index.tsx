@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 // import Hero from '../components/hero'
+import About from '../components/about'
 import profile from '../../public/images/hero-profile-photo-resize.jpg'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -14,7 +15,7 @@ export default function Home() {
     //   <Hero />
       
     // </main>
-
+    <>
     <main>
               <div className='flex min-h-screen flex-col py-5 mb-4'>
              <div className="mx-auto max-w-7xl my-10">
@@ -32,5 +33,7 @@ export default function Home() {
              </div>
         </div>
     </main>
+    <About />
+    </>
   )
 }
