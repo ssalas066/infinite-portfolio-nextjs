@@ -6,7 +6,7 @@ const About = () => {
                 <div className=" mt-36 mb-16 lg:mt-62">
                     <div className=" mx-auto mt-5 mb-10 max-w-7xl px-6 lg:px-2">
                         <div className=" grid grid-cols-1">
-                            <h1 className=" text-justify text-4xl lg:text-6xl col-span-1 mb-20 font-semibold leading-8 text-white">
+                            <h1 className=" text-justify text-3xl lg:text-4xl col-span-1 mb-10 font-semibold leading-8 text-cyan-500">
                                 About
                             </h1>
                         </div>
