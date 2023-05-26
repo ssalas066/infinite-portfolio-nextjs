@@ -1,3 +1,6 @@
+import React from 'react';
+import { Document, Font, Page, StyleSheet, Text, View } from '@react-pdf/renderer'
+
 const About = () => {
     return (
         <>
@@ -10,29 +13,34 @@ const About = () => {
                             </h1>
                         </div>
 
-                        <div className=" text-center grid grid-rows-6 lg:grid-cols-6 lg:gap-y-0 lg:gap-x-28">
+                    <div className=" text-center grid grid-rows-6 lg:grid-cols-6 lg:gap-y-0 lg:gap-x-28">
 
                             {/* <h1 className=" row-span-2 lg:col-span-2 text-xl lg:text-2xl font-semibold font-mono tracking-tight text-cyan-200">
                                 Fullstack Web Developer
                             </h1> */}
                             
-                            <div className=" row-span-2 lg:col-span-2 text-xl lg:text-2xl front-semibold font-mono tracking-tight text-cyan-200">
-                                <h1>Who I am</h1>
-                                <ul className="list-disc mx-10 text-justify">
+                                <div className=" row-span-2 lg:col-span-2 text-xl lg:text-2xl front-semibold font-mono tracking-tight text-cyan-200">
+                                    <h1>Who I am</h1>
+                                    <ul className="list-disc mx-10 text-justify">
                                 
-                                <li>
+                                    <li>
                                     My interests
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     some other aspect
-                                </li>
-                                <li>
+                                    </li>
+                                    <li>
                                     why is this not working lol
-                                </li>
-                            </ul>
-                            </div>
-                            
+                                    </li>
+                                    </ul>
+                                </div>
                         </div>
+                        <Document author={"Sergio Salas"} title={`Resume for ${"Sergio Salas"}, ${2023}`}>
+                                <Page size={"LETTER"} style={Styles.Page}>
+                                    
+                                </Page>
+                        </Document>
+
                     </div>
                 </div>
         </div>
