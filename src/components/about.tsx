@@ -37,11 +37,11 @@ const About = () => {
                                     </ul>
                                 </div>
                         </div>
-                        <Document author={"Sergio Salas"} title={`Resume for ${"Sergio Salas"}, ${2023}`}>
-                                <Page size={"LETTER"} style={Styles.Page}>
+                        {/* <Document author={"Sergio Salas"} title={`Resume for ${"Sergio Salas"}, ${2023}`}> */}
+                                {/* <Page size={"LETTER"} style={Styles.Page}> */}
                                     
-                                </Page>
-                        </Document>
+                                {/* </Page> */}
+                        {/* </Document> */}
 
                     </div>
                 </div>
