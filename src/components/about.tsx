@@ -25,7 +25,7 @@ const About = () => {
                                     <h1>Who I am</h1>
                                     <ul className="list-disc mx-10 text-justify">
                                 
-                                    <li>
+                                    <li className=' row-span-1 lg:col-span-2 text-xl'>
                                     My interests
                                     </li>
                                     <li>
