@@ -13,7 +13,7 @@ const Work = () => {
                         </h1>
                     </div>
 
-                    <div className=" max-w-sm rounded overflow-hidden shadow-lg">
+                    <div className=" bg-gray-600 max-w-sm rounded overflow-hidden shadow-lg">
                         <Image className=" " src={sql} alt="snap-sql" />
                         <div className=' px-6 py-4'>
                             <div className=' font-semibold text-xl mb-2'>
@@ -25,9 +25,9 @@ const Work = () => {
                             <span className=' inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-medium text-gray-700 mr-2 mb-2'>#sqlchallenge</span>
                         </div>
                     </div>
-                    
-                    <div className=" max-w-sm rounded overflow-hidden shadow-lg">
-                        <Image className=" " src={sql} alt="snap-sql" />
+
+                    <div className=" bg-gray-600 max-w-sm rounded overflow-hidden shadow-lg">
+                        <Image className=" w-full" src={sql} alt="snap-sql" />
                         <div className=' px-6 py-4'>
                             <div className=' font-semibold text-xl mb-2'>
                                 PWP
