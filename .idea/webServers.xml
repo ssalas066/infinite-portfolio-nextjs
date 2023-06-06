@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b0052d91-af44-48a9-97c7-8c81946c67d4" name="infinite-port" url="http://no.no">
+        <fileTransfer rootFolder="/home/ssalas/portfolio" accessType="SFTP" host="137.184.34.11" port="22" sshConfigId="57991c59-8ea5-44dd-bccc-4969b8fcbeae" sshConfig="ssalas@137.184.34.11:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
