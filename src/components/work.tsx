@@ -17,7 +17,7 @@ const Work = () => {
                         <Image className=" " src={sql} alt="snap-sql" />
                         <div className=' px-6 py-4'>
                             <div className=' font-semibold text-xl mb-2'>
-                                PWP
+                                Plate-It-Forward
                             </div>
                             <p className=' text-cyan-400 text-base'>lorem ipsum</p>
                         </div>
@@ -26,11 +26,12 @@ const Work = () => {
                         </div>
                     </div>
 
+                    {/* NEXT CARD  */}
                     <div className=" row-span-1 lg:col-span-2 bg-gray-600 max-w-sm rounded-md mb-5 overflow-hidden shadow-lg">
                         <Image className=" w-full" src={sql} alt="snap-sql" />
                         <div className=' px-6 py-4'>
                             <div className=' font-semibold text-xl mb-2'>
-                                PWP
+                                Backend Challenge
                             </div>
                             <p className=' text-cyan-400 text-base'>lorem ipsum</p>
                         </div>
@@ -39,11 +40,55 @@ const Work = () => {
                         </div>
                         
                     </div>
+
+                    {/* NEXT CARD  */}
                     <div className=" row-span-1 lg:col-span-2 bg-gray-600 max-w-sm rounded-md mb-5 overflow-hidden shadow-lg">
                         <Image className=" w-full" src={sql} alt="snap-sql" />
                         <div className=' px-6 py-4'>
                             <div className=' font-semibold text-xl mb-2'>
-                                PWP
+                                SQL Challenge
+                            </div>
+                            <p className=' text-cyan-400 text-base'>lorem ipsum</p>
+                        </div>
+                        <div className=' px-6 pt-4 pb-2'>
+                            <span className=' inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-medium text-gray-700 mr-2 mb-2'>#sqlchallenge</span>
+                        </div>
+                    </div>
+                    
+                    {/* NEXT CARD  */}
+                    <div className=" row-span-1 lg:col-span-2 bg-gray-600 max-w-sm rounded-md mb-5 overflow-hidden shadow-lg">
+                        <Image className=" w-full" src={sql} alt="snap-sql" />
+                        <div className=' px-6 py-4'>
+                            <div className=' font-semibold text-xl mb-2'>
+                                SQL Challenge
+                            </div>
+                            <p className=' text-cyan-400 text-base'>lorem ipsum</p>
+                        </div>
+                        <div className=' px-6 pt-4 pb-2'>
+                            <span className=' inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-medium text-gray-700 mr-2 mb-2'>#sqlchallenge</span>
+                        </div>
+                    </div>
+
+                    {/* NEXT CARD  */}
+                    <div className=" row-span-1 lg:col-span-2 bg-gray-600 max-w-sm rounded-md mb-5 overflow-hidden shadow-lg">
+                        <Image className=" w-full" src={sql} alt="snap-sql" />
+                        <div className=' px-6 py-4'>
+                            <div className=' font-semibold text-xl mb-2'>
+                                SQL Challenge
+                            </div>
+                            <p className=' text-cyan-400 text-base'>lorem ipsum</p>
+                        </div>
+                        <div className=' px-6 pt-4 pb-2'>
+                            <span className=' inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-medium text-gray-700 mr-2 mb-2'>#sqlchallenge</span>
+                        </div>
+                    </div>
+
+                    {/* NEXT CARD  */}
+                    <div className=" row-span-1 lg:col-span-2 bg-gray-600 max-w-sm rounded-md mb-5 overflow-hidden shadow-lg">
+                        <Image className=" w-full" src={sql} alt="snap-sql" />
+                        <div className=' px-6 py-4'>
+                            <div className=' font-semibold text-xl mb-2'>
+                                SQL Challenge
                             </div>
                             <p className=' text-cyan-400 text-base'>lorem ipsum</p>
                         </div>
