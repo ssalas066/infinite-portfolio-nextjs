@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 // import Hero from '../components/hero'
 import About from '../components/about'
+import Work from '../components/work'
 import profile from '../../public/images/hero-profile-photo-resize.jpg'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -34,6 +35,7 @@ export default function Home() {
         </div>
     </main>
     <About />
+    <Work />
     </>
   )
 }
