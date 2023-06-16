@@ -7,7 +7,7 @@ const Footer = () => {
             <ul className='flex flex-wrap justify-center gap-6 lg:gap-12'>
                 <li className=''>
                     <Link className='font-medium text-gray-400 no-underline hover:underline hover:text-white' href={''}>
-                        userName IG
+                        @liight_piixels
                     </Link>
                 </li>
                 <p className='text-white'>
@@ -15,7 +15,7 @@ const Footer = () => {
                 </p>
                 <li>
                     <Link className='font-medium text-gray-400 no-underline hover:underline hover:text-white' href={''}>
-                        blah@geemail.com
+                        infinitevoiddesign@gmail.com
                     </Link>
                 </li>
             </ul>
